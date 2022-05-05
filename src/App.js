@@ -8,7 +8,7 @@ const App = () => {
                 title="You own store of Nifty NFTs. Start Selling & Growing"
                 description="Buy, store, collect NFTS, exchange & earn crypto. Join 25+ million people using ProNef Marketplace."
                 showBtn
-                showBtnLink="https://github.com/gr8guyrabi/nft-react-native"
+                showBtnLink="https://expo.dev/@gr8guyrabi/nft-react-native?serviceType=classic&distribution=expo-go"
                 mockupImg={assets.homeHero}
                 banner="banner"
             />
