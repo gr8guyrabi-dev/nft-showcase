@@ -14,9 +14,22 @@
 }
 
 
+.banner03 {
+    background: url("./assets/banner03.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
 
 .fadeLeftMini {
     animation: fadeLeftMini 1s;
+    animation-fill-mode: both;
+}
+
+.fadeRightMini {
+    animation: fadeRightMini 1s;
     animation-fill-mode: both;
 }
 
@@ -28,5 +41,16 @@
     100% {
         opacity: 1;
         transform: translateZ(0)
+    }
+}
+
+@keyframes fadeRightMini {
+    0% {
+        opacity: 0;
+        transform: translate3d(40%, 0, 0);
+    }
+    100% {
+        opacity: 1;
+        transform: translateZ(0);
     }
 }
