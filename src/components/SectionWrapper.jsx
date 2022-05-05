@@ -4,7 +4,7 @@ import Button from './Button'
 import styles from '../styles/Global'
 import assets from '../assets'
 
-const SectionWrapper = ({title, description, showBtn, mockupImg, banner, reverse}) => {
+const SectionWrapper = ({title, description, showBtn, showBtnLink="", mockupImg, banner, reverse}) => {
     return (
         <div className={`min-h-screen 
             ${styles.section} 
@@ -28,7 +28,7 @@ const SectionWrapper = ({title, description, showBtn, mockupImg, banner, reverse
                     { showBtn && (
                         <Button 
                             assetUrl={assets.expo}
-                            link="marketplace"
+                            link={showBtnLink}
                         />
                     )}
                 </div>
